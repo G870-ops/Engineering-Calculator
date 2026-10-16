@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_display_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\display_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_mode_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_mode_bg.xml"
+    },
+    {
+        "merged": "com.example.scientificcalculator.app-debug-38:/layout_fragment_equation.xml.flat",
+        "source": "com.example.scientificcalculator.app-main-40:/layout/fragment_equation.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_complex.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_complex.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_equal_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_equal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_history.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_item_history.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\item_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_sign_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_sign_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_function_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_function_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_const_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_const_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_del_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_del_bg.xml"
+    },
+    {
+        "merged": "com.example.scientificcalculator.app-debug-38:/layout_fragment_matrix.xml.flat",
+        "source": "com.example.scientificcalculator.app-main-40:/layout/fragment_matrix.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_unit_converter.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_unit_converter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_result_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\result_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_calculator.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_trig_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_trig_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_equation.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_equation.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_number_base.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_number_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_formula.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_formula.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_statistics.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_power_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_power_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_operator_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_operator_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_history_item_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\history_item_bg.xml"
+    },
+    {
+        "merged": "com.example.scientificcalculator.app-debug-38:/layout_fragment_calculator.xml.flat",
+        "source": "com.example.scientificcalculator.app-main-40:/layout/fragment_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_item_formula.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\item_formula.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_action_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_action_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_card_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_paren_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_paren_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_special_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_special_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_item_stat_card.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\item_stat_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\layout_fragment_matrix.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_matrix.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_clear_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_clear_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_log_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_log_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_btn_number_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\btn_number_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-debug-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

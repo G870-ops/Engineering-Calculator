@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_card">#0D1B3E</color>
+    <color name="bg_primary">#050A18</color>
+    <color name="bg_secondary">#0A1428</color>
+    <color name="bg_surface">#111C40</color>
+    <color name="btn_arith_bg">#1C1205</color>
+    <color name="btn_arith_stroke">#FF8800</color>
+    <color name="btn_arith_text">#FB923C</color>
+    <color name="btn_clear">#FF1744</color>
+    <color name="btn_const_bg">#221C06</color>
+    <color name="btn_const_stroke">#FFD600</color>
+    <color name="btn_const_text">#FDE047</color>
+    <color name="btn_del_bg">#200818</color>
+    <color name="btn_del_stroke">#FF007F</color>
+    <color name="btn_del_text">#F43F5E</color>
+    <color name="btn_equal">#00C8FF</color>
+    <color name="btn_function">#091530</color>
+    <color name="btn_log_bg">#0C142E</color>
+    <color name="btn_log_stroke">#3A86FF</color>
+    <color name="btn_log_text">#60A5FA</color>
+    <color name="btn_number">#0F2040</color>
+    <color name="btn_operator">#0A1B4A</color>
+    <color name="btn_paren_bg">#072016</color>
+    <color name="btn_paren_stroke">#00E676</color>
+    <color name="btn_paren_text">#4ADE80</color>
+    <color name="btn_power_bg">#061D24</color>
+    <color name="btn_power_stroke">#00F5FF</color>
+    <color name="btn_power_text">#22D3EE</color>
+    <color name="btn_sign_bg">#091E24</color>
+    <color name="btn_sign_stroke">#1DE9B6</color>
+    <color name="btn_sign_text">#2DD4BF</color>
+    <color name="btn_special">#7C4DFF</color>
+    <color name="btn_trig_bg">#140C28</color>
+    <color name="btn_trig_stroke">#9D4EDD</color>
+    <color name="btn_trig_text">#C77DFF</color>
+    <color name="display_bg">#020810</color>
+    <color name="display_border">#00F5FF</color>
+    <color name="glass_cyan">#1A00F5FF</color>
+    <color name="glass_white">#1AFFFFFF</color>
+    <color name="neon_blue">#2979FF</color>
+    <color name="neon_cyan">#6B00F5FF</color>
+    <color name="neon_green">#00E676</color>
+    <color name="neon_orange">#FF6D00</color>
+    <color name="neon_pink">#FF006E</color>
+    <color name="neon_purple">#7C4DFF</color>
+    <color name="neon_yellow">#FFD600</color>
+    <color name="overlay_dark">#99000000</color>
+    <color name="tab_selected">#00F5FF</color>
+    <color name="tab_unselected">#546E7A</color>
+    <color name="text_accent">#00F5FF</color>
+    <color name="text_dim">#546E7A</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_result">#00E676</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="transparent">#00000000</color>
+    <string name="app_name">CalcPro Engineer</string>
+    <string name="btn_clear_history">Clear History</string>
+    <string name="copied_to_clipboard">Copied to clipboard!</string>
+    <string name="error_division_zero">Cannot divide by zero</string>
+    <string name="error_invalid_input">Invalid input</string>
+    <string name="history_empty">No calculations yet</string>
+    <string name="tab_calculator">Calculator</string>
+    <string name="tab_complex">Complex</string>
+    <string name="tab_equation">Equation</string>
+    <string name="tab_formula">Formula</string>
+    <string name="tab_history">History</string>
+    <string name="tab_matrix">Matrix</string>
+    <string name="tab_numbase">Base</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_unit">Unit</string>
+    <style name="CalcButton" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="CalcButtonClear" parent="CalcButton">
+        <item name="android:background">@drawable/btn_clear_bg</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CalcButtonConst" parent="CalcButton">
+        <item name="android:background">@drawable/btn_const_bg</item>
+        <item name="android:textColor">@color/btn_const_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CalcButtonDel" parent="CalcButton">
+        <item name="android:background">@drawable/btn_del_bg</item>
+        <item name="android:textColor">@color/btn_del_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="CalcButtonEqual" parent="CalcButton">
+        <item name="android:background">@drawable/btn_equal_bg</item>
+        <item name="android:textColor">#050A18</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="CalcButtonFunction" parent="CalcButton">
+        <item name="android:background">@drawable/btn_function_bg</item>
+        <item name="android:textColor">@color/neon_purple</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CalcButtonLog" parent="CalcButton">
+        <item name="android:background">@drawable/btn_log_bg</item>
+        <item name="android:textColor">@color/btn_log_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CalcButtonNumber" parent="CalcButton">
+        <item name="android:background">@drawable/btn_number_bg</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="CalcButtonOperator" parent="CalcButton">
+        <item name="android:background">@drawable/btn_operator_bg</item>
+        <item name="android:textColor">@color/btn_arith_text</item>
+    </style>
+    <style name="CalcButtonParen" parent="CalcButton">
+        <item name="android:background">@drawable/btn_paren_bg</item>
+        <item name="android:textColor">@color/btn_paren_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="CalcButtonPower" parent="CalcButton">
+        <item name="android:background">@drawable/btn_power_bg</item>
+        <item name="android:textColor">@color/btn_power_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CalcButtonSign" parent="CalcButton">
+        <item name="android:background">@drawable/btn_sign_bg</item>
+        <item name="android:textColor">@color/btn_sign_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="CalcButtonSpecial" parent="CalcButton">
+        <item name="android:background">@drawable/btn_special_bg</item>
+        <item name="android:textColor">@color/neon_yellow</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CalcButtonTrig" parent="CalcButton">
+        <item name="android:background">@drawable/btn_trig_bg</item>
+        <item name="android:textColor">@color/btn_trig_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="FuturisticTabStyle" parent="Widget.Material3.TabLayout">
+        <item name="tabSelectedTextColor">@color/neon_cyan</item>
+        <item name="tabTextColor">@color/text_dim</item>
+        <item name="tabIndicatorColor">@color/neon_cyan</item>
+        <item name="tabBackground">@color/transparent</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+    </style>
+    <style name="InputStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/neon_cyan</item>
+        <item name="hintTextColor">@color/neon_cyan</item>
+        <item name="android:textColorHint">@color/text_dim</item>
+    </style>
+    <style name="SectionTitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/neon_cyan</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="Theme.ScientificCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/neon_cyan</item>
+        <item name="colorPrimaryVariant">@color/neon_blue</item>
+        <item name="colorOnPrimary">@color/bg_primary</item>
+        <item name="colorSecondary">@color/neon_purple</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSurface">@color/bg_secondary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/bg_primary</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="tabStyle">@style/FuturisticTabStyle</item>
+    </style>
+</resources>

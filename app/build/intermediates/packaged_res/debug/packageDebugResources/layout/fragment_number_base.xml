@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔢 Number Base Converter"
+            android:textSize="18sp"
+            android:textColor="@color/btn_power_stroke"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INPUT NUMBER"
+            style="@style/SectionTitle"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etBaseInput"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Enter number..."
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_dim"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:background="@drawable/input_bg"
+            android:padding="12dp"
+            android:inputType="text"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Input Base Selector -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT INPUT BASE"
+            style="@style/SectionTitle"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnFromDec"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_mode_bg"
+                android:padding="4dp"
+                android:text="DEC\nBase 10"
+                android:textColor="@color/btn_arith_stroke"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btnFromBin"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_mode_bg"
+                android:padding="4dp"
+                android:text="BIN\nBase 2"
+                android:textColor="@color/text_dim"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btnFromOct"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_mode_bg"
+                android:padding="4dp"
+                android:text="OCT\nBase 8"
+                android:textColor="@color/text_dim"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btnFromHex"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_mode_bg"
+                android:padding="4dp"
+                android:text="HEX\nBase 16"
+                android:textColor="@color/text_dim"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <!-- Convert Button -->
+        <Button
+            android:id="@+id/btnConvertBase"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="🔄  CONVERT ALL BASES"
+            android:textSize="14sp"
+            android:textColor="#F44336"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/btn_action_bg"
+            android:letterSpacing="0.08"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Results Cards -->
+        <LinearLayout
+            android:id="@+id/baseResultContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Decimal -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="@drawable/card_bg"
+                android:padding="12dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🔟 DECIMAL  (Base 10)" style="@style/SectionTitle" android:layout_marginBottom="4dp"/>
+                <TextView android:id="@+id/tvDecResult" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="" android:textSize="22sp"
+                    android:textColor="@color/neon_cyan" android:fontFamily="monospace"/>
+            </LinearLayout>
+
+            <!-- Binary -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="@drawable/card_bg"
+                android:padding="12dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="0️⃣1️⃣ BINARY  (Base 2)" style="@style/SectionTitle" android:layout_marginBottom="4dp"/>
+                <TextView android:id="@+id/tvBinResult" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="" android:textSize="16sp"
+                    android:textColor="@color/neon_green" android:fontFamily="monospace"/>
+            </LinearLayout>
+
+            <!-- Octal -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="@drawable/card_bg"
+                android:padding="12dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="8️⃣ OCTAL  (Base 8)" style="@style/SectionTitle" android:layout_marginBottom="4dp"/>
+                <TextView android:id="@+id/tvOctResult" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="" android:textSize="22sp"
+                    android:textColor="@color/neon_purple" android:fontFamily="monospace"/>
+            </LinearLayout>
+
+            <!-- Hexadecimal -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="@drawable/card_bg"
+                android:padding="12dp" android:layout_marginBottom="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🔡 HEXADECIMAL  (Base 16)" style="@style/SectionTitle" android:layout_marginBottom="4dp"/>
+                <TextView android:id="@+id/tvHexResult" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="" android:textSize="22sp"
+                    android:textColor="@color/neon_orange" android:fontFamily="monospace"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalcPro Engineer</string>
+    <string name="tab_calculator">Calculator</string>
+    <string name="tab_unit">Unit</string>
+    <string name="tab_matrix">Matrix</string>
+    <string name="tab_equation">Equation</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_numbase">Base</string>
+    <string name="tab_formula">Formula</string>
+    <string name="tab_history">History</string>
+    <string name="tab_complex">Complex</string>
+    <string name="btn_clear_history">Clear History</string>
+    <string name="history_empty">No calculations yet</string>
+    <string name="copied_to_clipboard">Copied to clipboard!</string>
+    <string name="error_invalid_input">Invalid input</string>
+    <string name="error_division_zero">Cannot divide by zero</string>
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⬛ Matrix Calculator"
+            android:textSize="18sp"
+            android:textColor="@color/neon_cyan"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Size Selector -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIZE:"
+                style="@style/SectionTitle"
+                android:layout_marginEnd="12dp"/>
+
+            <Button
+                android:id="@+id/btn2x2"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/btn_mode_bg"
+                android:padding="0dp"
+                android:text="2×2"
+                android:textColor="@color/btn_log_stroke"
+                android:textSize="12sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn3x3"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/btn_mode_bg"
+                android:padding="0dp"
+                android:text="3×3"
+                android:textColor="@color/btn_log_stroke"
+                android:textSize="12sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn4x4"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:background="@drawable/btn_mode_bg"
+                android:padding="0dp"
+                android:text="4×4"
+                android:textColor="@color/btn_log_stroke"
+                android:textSize="12sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <!-- Matrix A -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MATRIX A"
+                style="@style/SectionTitle"/>
+
+            <Button
+                android:id="@+id/btnFillRandom"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_mode_bg"
+                android:paddingHorizontal="10dp"
+                android:text="🎲 Random"
+                android:textColor="@color/btn_const_stroke"
+                android:textSize="11sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/matrixAContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Matrix B (for multiplication) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MATRIX B  (for multiplication)"
+            style="@style/SectionTitle"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/matrixBContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Operations -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OPERATIONS"
+            style="@style/SectionTitle"
+            android:layout_marginBottom="8dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnDeterminant"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="📊 Determinant"
+                android:textSize="12sp"
+                android:textColor="#E91E63"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button
+                android:id="@+id/btnInverse"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="🔄 A⁻¹ Inverse"
+                android:textSize="12sp"
+                android:textColor="#C77DFF"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button
+                android:id="@+id/btnTranspose"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="🔃 Aᵀ Transpose"
+                android:textSize="12sp"
+                android:textColor="#4ADE80"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button
+                android:id="@+id/btnMatrixMultiply"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="✖ A × B Multiply"
+                android:textSize="12sp"
+                android:textColor="#FDE047"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button
+                android:id="@+id/btnMatrixAdd"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="➕ A + B Add"
+                android:textSize="12sp"
+                android:textColor="#FB923C"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button
+                android:id="@+id/btnTrace"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="📐 tr(A) Trace"
+                android:textSize="12sp"
+                android:textColor="#2DD4BF"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+        </GridLayout>
+
+        <!-- Result -->
+        <LinearLayout
+            android:id="@+id/matrixResultContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/result_bg"
+            android:padding="12dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESULT"
+                style="@style/SectionTitle"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvMatrixResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="@color/neon_green"
+                android:fontFamily="monospace"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

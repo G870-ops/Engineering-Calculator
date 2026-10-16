@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ℂ Complex Number Calculator"
+            android:textSize="18sp"
+            android:textColor="@color/neon_cyan"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Number A -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="NUMBER A  (a + bi)" style="@style/SectionTitle" android:layout_marginBottom="8dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="12dp">
+
+            <EditText android:id="@+id/etRealA" android:layout_width="0dp"
+                android:layout_height="50dp" android:layout_weight="1"
+                android:hint="Real (a)" android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_dim" android:textSize="16sp"
+                android:fontFamily="monospace" android:background="@drawable/input_bg"
+                android:padding="10dp" android:inputType="numberDecimal|numberSigned"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText android:id="@+id/etImagA" android:layout_width="0dp"
+                android:layout_height="50dp" android:layout_weight="1"
+                android:hint="Imaginary (b)" android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_dim" android:textSize="16sp"
+                android:fontFamily="monospace" android:background="@drawable/input_bg"
+                android:padding="10dp" android:inputType="numberDecimal|numberSigned"/>
+        </LinearLayout>
+
+        <!-- Number B -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="NUMBER B  (c + di)" style="@style/SectionTitle" android:layout_marginBottom="8dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="16dp">
+
+            <EditText android:id="@+id/etRealB" android:layout_width="0dp"
+                android:layout_height="50dp" android:layout_weight="1"
+                android:hint="Real (c)" android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_dim" android:textSize="16sp"
+                android:fontFamily="monospace" android:background="@drawable/input_bg"
+                android:padding="10dp" android:inputType="numberDecimal|numberSigned"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText android:id="@+id/etImagB" android:layout_width="0dp"
+                android:layout_height="50dp" android:layout_weight="1"
+                android:hint="Imaginary (d)" android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_dim" android:textSize="16sp"
+                android:fontFamily="monospace" android:background="@drawable/input_bg"
+                android:padding="10dp" android:inputType="numberDecimal|numberSigned"/>
+        </LinearLayout>
+
+        <!-- Operations Label -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="OPERATIONS" style="@style/SectionTitle" android:layout_marginBottom="8dp"/>
+
+        <!-- Operations Grid -->
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:columnCount="2" android:layout_marginBottom="16dp">
+
+            <Button android:id="@+id/btnComplexAdd"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="➕  A + B  (Add)"
+                android:textColor="#F44336"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button android:id="@+id/btnComplexSub"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="➖  A − B  (Sub)"
+                android:textColor="#FB923C"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button android:id="@+id/btnComplexMul"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="✖  A × B  (Mul)"
+                android:textColor="#4ADE80"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button android:id="@+id/btnComplexDiv"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="➗  A ÷ B  (Div)"
+                android:textColor="#FDE047"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button android:id="@+id/btnComplexModA"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="📐  |A| Modulus"
+                android:textColor="#C77DFF"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+
+            <Button android:id="@+id/btnComplexConjA"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:text="🔄  Ā Conjugate"
+                android:textColor="#2DD4BF"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_action_bg"/>
+        </GridLayout>
+
+        <!-- Result -->
+        <LinearLayout android:id="@+id/complexResultContainer" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"
+            android:background="@drawable/result_bg" android:padding="14dp" android:visibility="gone">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="RESULT" style="@style/SectionTitle" android:layout_marginBottom="8dp"/>
+
+            <TextView android:id="@+id/tvComplexResult" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="" android:textSize="22sp"
+                android:textColor="@color/neon_green" android:fontFamily="monospace"/>
+
+            <TextView android:id="@+id/tvComplexPolar" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="" android:textSize="14sp"
+                android:textColor="@color/text_dim" android:fontFamily="monospace"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

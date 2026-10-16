@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_primary"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🕐 Calculation History"
+            android:textSize="18sp"
+            android:textColor="@color/btn_special"
+            android:fontFamily="sans-serif-medium"/>
+
+        <Button
+            android:id="@+id/btnClearHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:background="@drawable/btn_mode_bg"
+            android:paddingHorizontal="12dp"
+            android:text="Clear All"
+            android:textColor="@color/neon_pink"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tvHistoryEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="No calculations yet\n\nStart calculating!"
+        android:textSize="16sp"
+        android:textColor="@color/text_dim"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>

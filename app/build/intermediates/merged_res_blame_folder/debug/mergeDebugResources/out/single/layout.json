@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_complex.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_complex.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\item_history.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\item_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_equation.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_equation.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_unit_converter.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_unit_converter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\item_stat_card.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\item_stat_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_formula.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_formula.xml"
+    },
+    {
+        "merged": "com.example.scientificcalculator.app-mergeDebugResources-37:/layout/fragment_calculator.xml",
+        "source": "com.example.scientificcalculator.app-main-40:/layout/fragment_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_number_base.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_number_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\item_formula.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\item_formula.xml"
+    },
+    {
+        "merged": "com.example.scientificcalculator.app-mergeDebugResources-37:/layout/fragment_matrix.xml",
+        "source": "com.example.scientificcalculator.app-main-40:/layout/fragment_matrix.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_calculator.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_history.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "com.example.scientificcalculator.app-mergeDebugResources-37:/layout/fragment_equation.xml",
+        "source": "com.example.scientificcalculator.app-main-40:/layout/fragment_equation.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-mergeDebugResources-37:\\layout\\fragment_matrix.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.9\\com.example.scientificcalculator.app-main-40:\\layout\\fragment_matrix.xml"
+    }
+]
